@@ -6,6 +6,20 @@ body, h1, h2, ul, li, p, small, button {
     font-family: Arial, sans-serif;
   }
   
+  /* Center the content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Main container */
+  .container {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
   /* Main header style */
   h1 {
     font-size: 24px;
