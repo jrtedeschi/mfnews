@@ -1,0 +1,76 @@
+/* Reset default styles */
+body, h1, h2, ul, li, p, small, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main header style */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* News headline style */
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* News list style */
+  ul {
+    margin-top: 10px;
+  }
+  
+  /* News item style */
+  li {
+    margin-bottom: 20px;
+  }
+  
+  /* Emoji style */
+  small {
+    font-size: 18px;
+  }
+  
+  /* News title style */
+  strong {
+    font-size: 18px;
+  }
+  
+  /* News details style */
+  small {
+    font-size: 14px;
+  }
+  
+  /* Show more/less buttons style */
+  button {
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Hide the "materia-completa" div by default */
+  .materia-completa {
+    display: none;
+  }
+  
+  /* Toggle button styles */
+  .btn-resumo,
+  .btn-materia-completa {
+    cursor: pointer;
+  }
+  
+  /* Styling for the "materia-completa" div when it's visible */
+  .materia-completa.visible {
+    display: block;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
